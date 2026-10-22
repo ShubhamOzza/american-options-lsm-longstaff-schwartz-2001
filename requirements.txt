@@ -1,11 +1,5 @@
-# Core dependencies for Project I-2: Derivative Pricing Engine
-# Pinned to the exact versions this script was tested against for reproducibility.
 numpy==2.4.2
+pandas==2.2.3
 scipy==1.17.0
 matplotlib==3.10.8
-
-# Optional, soft dependencies only; the engine runs fully without them and
-# degrades gracefully (documented fallback, not a silent skip).
-# yfinance>=0.2       # live option chain for the IV smile; falls back to a
-#                      # labeled synthetic chain if unavailable or offline
-# QuantLib-Python>=1.31
+jupyter
